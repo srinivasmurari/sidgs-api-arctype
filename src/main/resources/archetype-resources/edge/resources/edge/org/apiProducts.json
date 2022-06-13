@@ -1,0 +1,29 @@
+[
+    {
+        "name": "${artifactId}Product",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "${artifactId}Product"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "${artifactId}Product",
+        "displayName": "${artifactId}Product",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "${projectName}-${teamName}-${artifactId}"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]

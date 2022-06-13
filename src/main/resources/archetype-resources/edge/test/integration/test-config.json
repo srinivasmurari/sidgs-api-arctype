@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"${projectName}-${teamName}-${artifactId}": {
+		"basepath": "/v1/${artifactId}",
+		"product":"${artifactId}Product",
+		"app":"${artifactId}App",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}

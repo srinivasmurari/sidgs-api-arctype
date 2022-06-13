@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog>
+    <archetypes>
+        <archetype>
+            <groupId>com.sidgs.apigee.archetype</groupId>
+            <artifactId>api-pass-through</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <repository>http://35.200.157.27:8081/repository/apigee-snapshot</repository>
+            <description>Apigee Edge Proxy Passthrough Project</description>
+        </archetype>
+    </archetypes>
+</archetype-catalog>
